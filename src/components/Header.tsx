@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
       <header>
         <div className="nav container">
           <a href="" className="logo">
-            ve<span>nom</span>
+            Ma<span>Friend</span>
           </a>
           {signed ? (
             <a onClick={logoutHandler} className="login">
