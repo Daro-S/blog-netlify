@@ -229,4 +229,10 @@
     color: red;
   }
   
-  
+  @media(max-width:800px){
+    .login-container{
+      margin: 15px 70px 40px 70px;
+
+    }
+    
+  }
