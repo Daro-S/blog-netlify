@@ -30,7 +30,7 @@ function Login() {
       login(data);
       setLoading(false);
     } catch (error: any) {
-      alert(error.response.data.message);
+      console.log(error.response.data.message);
       setLoading(false);
     }
   };
